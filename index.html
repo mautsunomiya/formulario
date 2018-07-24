@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <article>
+        <h2>Cadastro</h2>
+        <input type="text" name="primeironome"  placeholder="Primeiro Nome" id="nome" >
+        <input type="text" name="sobrenome"  placeholder="Sobrenome" id="sobrenome">
+        <input type="text" name="email"  placeholder="E-mail"id="email" >
+        <input type="text" name="senha"  placeholder="Senha" id="senha" >
+
+        <button type="button" id="botao">
+            <img src="enviar.png" alt="">
+        </button>
+
+        <section id="modalPositivo">
+            <img src="success.png" alt="">
+            <p id="cadastroSucesso"> Cadastro enviado com sucesso! </p>
+        </section>
+
+        <section id="modalNegativoDados">
+                <img src="error.png" alt="">
+                <p id="dadosIncompletos"> Preencha todos os campos </p> 
+                <p id="emailInvalido"> Digite um e-mail válido </p>
+                <p id="senhaInvalida"> Sua senha dever ter no mínimo 6 caracteres </p>
+        </section>
+
+    </article>
+</body>
+</html>

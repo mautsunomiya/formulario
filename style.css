@@ -1,0 +1,81 @@
+h2{
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+article{
+    width: 100%;
+    display: flex;
+}
+#nome{
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: gray;
+    display: block;
+
+}
+
+#sobrenome{
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: gray;
+    display: block;
+
+}
+
+#email{
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: gray;
+    display: block;
+    
+}
+
+#senha{
+    width: 60%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: gray;
+    display: block;
+    }
+
+button{
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+    display: flex;
+    align-items: flex-end
+}
+
+img{
+    width: 60px;
+    margin: 0px;
+    border-radius: 50%;
+    display: flex; 
+    align-self: flex-end;
+}
+
+section{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 250px;
+    width: 650px;
+    background-color: lightgray;
+    opacity: 0;
+
+}
+
+p{
+    font-family: sans-serif;
+    font-size: 20px;
+    color:gray
+}
